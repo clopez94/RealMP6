@@ -12,6 +12,6 @@
     <string name="button3">League Leaders In Arrests</string>
     <string name="button4">Lead Position in Crimes</string>
     <string name="button5">Top Crimes by Position</string>
-    <string name="searchBar">Search here...</string>
+    <string name="searchBar">Search for players here...</string>
 
 </resources>
