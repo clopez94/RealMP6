@@ -7,5 +7,11 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
+    <string name="button1">Most Popular Crimes</string>
+    <string name="button2">Team Leaders In Arrests</string>
+    <string name="button3">League Leaders In Arrests</string>
+    <string name="button4">Lead Position in Crimes</string>
+    <string name="button5">Top Crimes by Position</string>
+    <string name="searchBar">Search here...</string>
 
 </resources>
