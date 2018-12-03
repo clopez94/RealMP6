@@ -18,7 +18,8 @@
         app:layout_constraintBottom_toTopOf="@+id/button2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editText"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.0"
+        android:onClick="popup_test"/>
 
     <Button
         android:id="@+id/button2"
@@ -29,7 +30,8 @@
         android:layout_marginBottom="20dp"
         android:text="@string/button2"
         app:layout_constraintBottom_toTopOf="@+id/button8"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        android:onClick="popup_test2"/>
 
     <Button
         android:id="@+id/button8"
@@ -40,7 +42,8 @@
         android:layout_marginBottom="32dp"
         android:text="@string/button3"
         app:layout_constraintBottom_toTopOf="@+id/button9"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        android:onClick="popup_test3"/>
 
     <Button
         android:id="@+id/button9"
@@ -51,7 +54,8 @@
         android:layout_marginBottom="24dp"
         android:text="@string/button4"
         app:layout_constraintBottom_toTopOf="@+id/button10"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        android:onClick="popup_test4"/>
 
     <Button
         android:id="@+id/button10"
@@ -62,7 +66,8 @@
         android:layout_marginBottom="52dp"
         android:text="@string/button5"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        android:onClick="popup_test5"/>
 
     <EditText
         android:id="@+id/editText"
