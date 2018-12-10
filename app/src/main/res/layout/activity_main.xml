@@ -14,7 +14,7 @@
         android:layout_marginLeft="8dp"
         android:layout_marginTop="36dp"
         android:layout_marginBottom="8dp"
-        android:text="@string/button1"
+        android:text="Top 10 Popular Crimes"
         app:layout_constraintBottom_toTopOf="@+id/button2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editText"
@@ -27,11 +27,11 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
-        android:layout_marginBottom="20dp"
-        android:text="@string/button2"
+        android:layout_marginBottom="8dp"
+        android:onClick="team_leader_arrests"
+        android:text="Top 10 teams with most arrests"
         app:layout_constraintBottom_toTopOf="@+id/button8"
-        app:layout_constraintStart_toStartOf="parent"
-        android:onClick="team_leader_arrests"/>
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/button8"
@@ -39,11 +39,11 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
-        android:layout_marginBottom="32dp"
-        android:text="@string/button3"
+        android:layout_marginBottom="16dp"
+        android:onClick="league_leader_arrests"
+        android:text="Top 10 League Leaders In Arrests (theft, DUI, etc. Use search bar)"
         app:layout_constraintBottom_toTopOf="@+id/button9"
-        app:layout_constraintStart_toStartOf="parent"
-        android:onClick="league_leader_arrests"/>
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/button9"
@@ -51,11 +51,11 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
-        android:layout_marginBottom="24dp"
-        android:text="@string/button4"
+        android:layout_marginBottom="12dp"
+        android:onClick="position_top_crimes"
+        android:text="Top 10 Lead Crimes by Position (QB, WR, etc. Use search bar)"
         app:layout_constraintBottom_toTopOf="@+id/button10"
-        app:layout_constraintStart_toStartOf="parent"
-        android:onClick="position_top_crimes"/>
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/button10"
@@ -64,30 +64,49 @@
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginBottom="52dp"
-        android:text="@string/button5"
+        android:text="Top 10 positions for crimes"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         android:onClick="crimes_by_position"/>
 
     <EditText
         android:id="@+id/editText"
-        android:layout_width="359dp"
-        android:layout_height="wrap_content"
+        android:layout_width="293dp"
+        android:layout_height="49dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
-        android:hint="@string/searchBar"
+        android:hint="Search for individual players' crimes"
+        android:importantForAutofill="no"
+        android:inputType="text"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        android:inputType="text"
-        android:importantForAutofill="no" tools:targetApi="o"/>
+        tools:targetApi="o" />
+
+    <Button
+        android:onClick="player_search"
+        android:layout_width="60dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="Go"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.974"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.017" />
 
     <ImageView
         android:id="@+id/imageView3"
