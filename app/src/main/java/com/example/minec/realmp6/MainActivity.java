@@ -8,7 +8,7 @@ import android.os.Bundle;
 import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
-    private final static String API = "http://nflarrest.com/api/v1/";
+    private final static String API = "https://nflarrest.com/api/v1/";
     public final static String KEY_URL = "com.example.minec.realmp6.URL";
     public final static String KEY_TAG = "com.example.minec.realmp6.TAG";
     @Override
